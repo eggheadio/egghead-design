@@ -1,3 +1,3 @@
 # egghead-design
-Contains all completed egghead illustrations for courses and around the site.
+Contains all completed egghead illustrations, design elements, and diagrams for courses and around the site.
 
