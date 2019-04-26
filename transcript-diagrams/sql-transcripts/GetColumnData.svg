@@ -1,0 +1,49 @@
+<svg width="648" height="446" viewBox="0 0 648 446" fill="none" xmlns="http://www.w3.org/2000/svg">
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Operator Mono" font-size="21.2574" font-weight="500" letter-spacing="0px"><tspan x="143.97" y="54.624">select   from</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Operator Mono" font-size="21.2574" font-weight="500" letter-spacing="0px"><tspan x="225.784" y="57.8124">*</tspan></text>
+<text fill="#1E81DA" xml:space="preserve" style="white-space: pre" font-family="Operator Mono" font-size="21.2574" font-weight="500" letter-spacing="0px"><tspan x="303.383" y="54.624">TableName</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Operator Mono" font-size="21.2574" font-weight="500" letter-spacing="0px"><tspan x="410.713" y="54.624">;</tspan></text>
+<rect x="-0.531403" y="0.531403" width="25.5073" height="25.5073" rx="2.65701" transform="matrix(-1 0 0 1 243.851 34.2169)" stroke="#3891E0" stroke-width="1.06281"/>
+<text fill="#4C5052" xml:space="preserve" style="white-space: pre" font-family="FreightSans Pro" font-size="16.5185" letter-spacing="1px"><tspan x="143.947" y="16.4029">GET ALL COLUMN DATA</tspan></text>
+<text fill="#1E81DA" xml:space="preserve" style="white-space: pre" font-family="Operator Mono" font-size="21.2381" font-weight="500" letter-spacing="0px"><tspan x="440.473" y="231.944">TableName</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Operator Mono" font-size="21.2381" font-weight="500" letter-spacing="0px"><tspan x="143.96" y="193.125">select</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Operator Mono" font-size="21.2381" font-weight="500" letter-spacing="0px"><tspan x="446.592" y="198.317">,</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Operator Mono" font-size="21.2381" font-weight="500" letter-spacing="0px"><tspan x="384.89" y="231.944">from</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Operator Mono" font-size="21.2381" font-weight="500" letter-spacing="0px"><tspan x="546.411" y="231.826">;</tspan></text>
+<rect x="-0.265476" y="0.265476" width="217.749" height="36.0458" rx="2.92024" transform="matrix(-1 0 0 1 440.749 167.545)" stroke="#46BCFF" stroke-width="0.530952"/>
+<rect x="-0.265476" y="0.265476" width="230.728" height="34.8659" rx="2.92024" transform="matrix(-1 0 0 1 374.675 208.841)" stroke="#46BCFF" stroke-width="0.530952"/>
+<text fill="#1DB9FC" xml:space="preserve" style="white-space: pre" font-family="Operator Mono" font-size="21.2381" font-weight="500" letter-spacing="0px"><tspan x="234.244" y="193.007">first_column_name</tspan></text>
+<text fill="#1DB9FC" xml:space="preserve" style="white-space: pre" font-family="Operator Mono" font-size="21.2381" font-weight="500" letter-spacing="0px"><tspan x="155.665" y="233.005">second_column_name</tspan></text>
+<text fill="#4C5052" xml:space="preserve" style="white-space: pre" font-family="FreightSans Pro" font-size="16.5185" letter-spacing="1px"><tspan x="143.947" y="150.911">GET SPECIFIC COLUMN DATA</tspan></text>
+<rect x="0.589947" y="0.589947" width="97.9312" height="97.9312" rx="2.94974" stroke="#3891E0" stroke-width="1.17989"/>
+<rect x="9.43915" y="9.43921" width="23.5979" height="80.2328" rx="2.35979" fill="#77CEFF"/>
+<rect x="37.7566" y="9.43921" width="23.5979" height="80.2328" rx="2.35979" fill="#77CEFF"/>
+<rect x="66.0741" y="9.43921" width="23.5979" height="80.2328" rx="2.35979" fill="#77CEFF"/>
+<circle cx="127.429" cy="49.5555" r="3.53968" transform="rotate(-180 127.429 49.5555)" fill="#3891E0"/>
+<path d="M99.1111 49.5555L123.889 49.5555" stroke="#3891E0" stroke-width="1.17989"/>
+<rect x="0.589947" y="136.278" width="97.9312" height="97.9312" rx="2.94974" stroke="#D1D5DF" stroke-width="1.17989"/>
+<rect x="9.43915" y="145.127" width="23.5979" height="80.2328" rx="2.35979" fill="#77CEFF"/>
+<rect x="37.7566" y="145.127" width="23.5979" height="80.2328" rx="2.35979" fill="#77CEFF"/>
+<rect opacity="0.3" x="66.0741" y="145.127" width="23.5979" height="80.2328" rx="2.35979" fill="#77CEFF"/>
+<circle cx="127.429" cy="188.783" r="3.53968" transform="rotate(-180 127.429 188.783)" fill="#3CBDF4"/>
+<path d="M60.1746 188.783L123.889 188.783" stroke="#3CBDF4" stroke-width="1.17989"/>
+<rect x="2.94973" y="306.182" width="97.9312" height="97.9312" rx="2.94974" stroke="#D1D5DF" stroke-width="1.17989"/>
+<rect opacity="0.3" x="11.7989" y="315.032" width="23.5979" height="80.2328" rx="2.35979" fill="#77CEFF"/>
+<rect opacity="0.3" x="40.1164" y="315.032" width="23.5979" height="80.2328" rx="2.35979" fill="#77CEFF"/>
+<rect x="68.4339" y="315.032" width="23.5979" height="80.2328" rx="2.35979" fill="#77CEFF"/>
+<circle cx="127.429" cy="363.407" r="3.53968" transform="rotate(-180 127.429 363.407)" fill="#3CBDF4"/>
+<path d="M92.0317 363.407L123.889 363.407" stroke="#3CBDF4" stroke-width="1.17989"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Operator Mono" font-size="21.2457" font-weight="500" letter-spacing="0px"><tspan x="145.139" y="366.814">select</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Operator Mono" font-size="21.2457" font-weight="500" letter-spacing="0px"><tspan x="452.131" y="367.877">as</tspan></text>
+<text fill="#1E81DA" xml:space="preserve" style="white-space: pre" font-family="Operator Mono" font-size="21.2457" font-weight="500" letter-spacing="0px"><tspan x="333.17" y="410.368">TableName</tspan></text>
+<rect width="122.163" height="39.3045" rx="3.18685" transform="matrix(-1 0 0 1 268.352 384.661)" fill="#3CBDF4"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Operator Mono" font-size="21.2457" font-weight="500" letter-spacing="0px"><tspan x="276.859" y="410.368">from</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Operator Mono" font-size="21.2457" font-weight="500" letter-spacing="0px"><tspan x="439.382" y="411.43">;</tspan></text>
+<text fill="#1DB9FC" xml:space="preserve" style="white-space: pre" font-family="Operator Mono" font-size="21.2457" font-weight="500" letter-spacing="0px"><tspan x="235.574" y="367.877">third_column_name</tspan></text>
+<rect width="220.511" height="36.9277" rx="3.16523" transform="matrix(-1 0 0 1 444.691 342.296)" stroke="#3CBDF4" stroke-width="1.05508" stroke-linecap="round"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Operator Mono" font-size="21.2457" letter-spacing="0px"><tspan x="160.016" y="410.368">new_name</tspan></text>
+<text fill="#4C5052" xml:space="preserve" style="white-space: pre" font-family="FreightSans Pro" font-size="16.5185" letter-spacing="1px"><tspan x="145.127" y="321.995">ALIAS COLUMNS</tspan></text>
+<text fill="#3CBDF4" xml:space="preserve" style="white-space: pre" font-family="FreightSans Pro" font-size="12.9788" font-weight="500" letter-spacing="1px"><tspan x="147.487" y="440.825">ALIAS COLUMN NAME</tspan></text>
+<text fill="#4C5052" xml:space="preserve" style="white-space: pre" font-family="FreightSans Pro" font-size="16.5185" font-style="italic" letter-spacing="1px"><tspan x="298.513" y="321.996">RETURNS DATA AND RENAMES THE COLUMN</tspan></text>
+<circle cx="285.534" cy="316.212" r="2.35979" fill="#4C5052"/>
+</svg>

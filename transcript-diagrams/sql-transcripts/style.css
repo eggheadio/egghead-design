@@ -1,0 +1,91 @@
+@import () body {
+  margin: 0 auto;
+  color: #232c3b;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  width: 80vw;
+  max-width: 800px;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+p {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.901961);
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir,
+    'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial,
+    sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+code {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: inline;
+  font-family: Consolas, monaco, monospace;
+  font-size: 16px;
+  height: auto;
+  line-height: 25px;
+  text-align: left;
+  white-space: pre-wrap;
+}
+
+pre {
+  padding: 2em;
+  border: 1px solid #666;
+  border-radius: 1em;
+}
+
+img {
+  display: block;
+  margin: 1em auto;
+}
+
+span {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #4c5052;
+  max-width: 480px;
+  display: block;
+  margin: 1.4em auto;
+  font-family: 'avenir next', avenir, sans-serif;
+}
+
+hr {
+  width: 10em;
+  border: 1px solid rgb(193, 193, 214);
+  margin: 60px auto;
+  display: block;
+}
+
+.fancylink {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fancylink a {
+  padding: 20px;
+  color: #618bff;
+  text-shadow: none;
+  -webkit-transition: color 0.8s;
+  -moz-transition: color 0.8s;
+  transition: color 0.8s;
+  text-decoration: none;
+}
+
+.fancylink a:hover,
+.fancylink a:focus {
+  color: #1841ca;
+}

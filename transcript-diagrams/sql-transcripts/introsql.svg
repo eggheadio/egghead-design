@@ -1,0 +1,34 @@
+<svg width="332" height="264" viewBox="0 0 332 264" fill="none" xmlns="http://www.w3.org/2000/svg">
+<text fill="#3891E0" xml:space="preserve" style="white-space: pre" font-family="SF Pro Display" font-size="18" letter-spacing="1.3px"><tspan x="163" y="38.1387">STRUCTURED&#10;</tspan><tspan x="163" y="60.1387">QUERY&#10;</tspan><tspan x="163" y="82.1387">LANGUAGE</tspan></text>
+<text fill="#42425B" xml:space="preserve" style="white-space: pre" font-family="SF Pro Text" font-size="20" font-weight="bold" letter-spacing="0.5px"><tspan x="161" y="158.043">RELATIONAL </tspan><tspan x="161" y="182.043">DATABASES</tspan></text>
+<text fill="#6B6B83" xml:space="preserve" style="white-space: pre" font-family="SF Pro Text" font-size="15" font-weight="300" letter-spacing="0px"><tspan x="161" y="206.282">Store data in tables </tspan><tspan x="161" y="224.282">organised into rows </tspan><tspan x="161" y="242.282">and columns</tspan></text>
+<rect opacity="0.1" x="51" y="136" width="38" height="119" rx="2" fill="#44AEEE"/>
+<rect opacity="0.1" x="93" y="136" width="38" height="119" rx="2" fill="#44AEEE"/>
+<rect x="0.75" y="127.75" width="138.5" height="135.5" rx="4.25" stroke="#3891E0" stroke-width="0.5"/>
+<g style="mix-blend-mode:multiply" opacity="0.6">
+<rect x="9" y="136" width="122" height="37" rx="4" fill="#69BEF1"/>
+</g>
+<g style="mix-blend-mode:multiply" opacity="0.1">
+<rect x="9" y="177" width="122" height="37" rx="2" fill="#3593E5"/>
+</g>
+<g style="mix-blend-mode:multiply" opacity="0.1">
+<rect x="9" y="218" width="122" height="37" rx="2" fill="#3593E5"/>
+</g>
+<circle cx="144.182" cy="54.1818" r="4.18182" transform="rotate(-180 144.182 54.1818)" fill="#3891E0"/>
+<path d="M115 54.0001H140" stroke="#3891E0" stroke-width="1.39394"/>
+<ellipse cx="71.5" cy="52.5" rx="53.5" ry="52.5" fill="#3891E0"/>
+<path d="M49.5822 58.9284C46.8795 58.9284 44.247 58.0509 42.0708 56.8926L41.0178 61.5258C43.0536 62.6841 46.2126 63.5265 49.4769 63.5265C55.2333 63.5265 58.4625 60.5781 58.4625 56.4012C58.4625 52.2243 54.9525 50.6799 51.5829 49.7673C48.9504 49.0302 46.9497 48.4686 46.9497 47.0295C46.9497 45.8361 47.8974 45.1692 49.8279 45.1692C52.0041 45.1692 54.7419 45.9414 56.9181 47.0997L58.0062 42.5016C55.9002 41.3433 53.2326 40.5711 49.7928 40.5711C44.3523 40.5711 41.3688 43.2738 41.3688 47.3454C41.3688 51.7329 45.2298 53.2071 48.4239 54.0846C51.3372 54.8919 52.9167 55.3833 52.9167 56.8575C52.9167 58.1913 51.5478 58.9284 49.5822 58.9284Z" fill="white"/>
+<path d="M78.9768 61.5609C82.1358 59.6655 84.1716 56.2608 84.1716 51.9435C84.1716 44.5374 79.2225 40.536 72.6939 40.536C66.1653 40.536 61.1811 45.1341 61.1811 52.0839C61.1811 59.49 66.1302 63.5265 72.6237 63.5265C72.7992 63.5265 72.9396 63.5265 73.08 63.4914L82.8027 68.6862L85.014 64.1583L78.9768 61.5609ZM78.5556 52.0839C78.5556 56.2959 76.4496 59.1039 72.729 59.1039C68.9733 59.1039 66.7971 56.1555 66.7971 51.9435C66.7971 47.8368 68.9031 45.0288 72.6237 45.0288C76.3443 45.0288 78.5556 47.8719 78.5556 52.0839Z" fill="white"/>
+<path d="M102.613 63V58.3317H93.4169V41.0625H87.836V63H102.613Z" fill="white"/>
+<path d="M73.6383 119.126C72.5038 121.222 69.4962 121.222 68.3617 119.126L60.4064 104.428C59.3244 102.429 60.7718 100 63.0447 100L78.9553 100C81.2282 100 82.6756 102.429 81.5936 104.428L73.6383 119.126Z" fill="#3891E0"/>
+<g style="mix-blend-mode:multiply" opacity="0.6">
+<rect x="9" y="136" width="38" height="119" rx="2" fill="#44AEEE"/>
+</g>
+<circle cx="28" cy="154" r="10" fill="white"/>
+<circle cx="70" cy="154" r="10" fill="white"/>
+<circle cx="28" cy="195" r="10" fill="white"/>
+<circle cx="112" cy="154" r="10" fill="white"/>
+<circle cx="70" cy="195" r="10" fill="white"/>
+<circle cx="112" cy="236" r="10" fill="white"/>
+<circle cx="70" cy="236" r="10" fill="white"/>
+</svg>

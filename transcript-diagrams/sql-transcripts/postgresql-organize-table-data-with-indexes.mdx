@@ -1,0 +1,92 @@
+<!-- INDEXES -->
+
+<link href="style.css" rel="stylesheet"></link>
+
+Imagine going to math class at school and you're given a book that put all of the topics, such as geometry and algebra, in an unorganized manner.
+
+Everything was spread out and jumping between topic and topic as you read through the book. Chapters within your math book, and any book, help organize the information and can put similar groups of topics together so that it's easy to navigate and learn.
+
+Similar to chapters in our math books, when we insert data into our tables, we can tell our tables how to organize this data. Adding what's called an index to our tables is one of the best forms of database performance you can do. An index allows the database to go to predefined chapters, if you will, that we can define for it.
+
+Our `Users` table currently has three rows of data. 
+
+```sql 
+$ postgres=# select * from Users; 
+  create_date |             user_handle              | last_name | first _name 
+--------------+--------------------------------------+-----------+-------------
+  2018-06-06  | 2839f831-f82c-faj3-aof3-fj28ddks39ek | clark     | tyler  
+  2019-02-01  | 6ab3b2d2-8e02-890c-bb6d-61a67cd43f31 | jones     | debbie    
+  2010-01-10  | a0eebc99-9c0b-42f8-g3eh-6bb9bd380a11 | freemon   | mary  
+  (3 rows)
+```
+
+When we query from this table, let's say that we almost exclusively just care about individual `user_handles`. We can create an index from this table by saying,` create index test1_user_handle_index on Users table (user_handle);`. Perfect.
+
+```sql 
+$ postgres=# create index test1_user_handle_index on Users (user_handle);
+CREATE INDEX
+$ postgres=#
+```
+<div>
+<h2 style={{ paddingTop: '20px', textAlign: 'center', color: '#3891E0', fontWeight: '300' }}>Creating an Index</h2>
+<img src="./sql-gifs/sql-create-index.gif" />
+</div>
+
+Let's look at this statement again. The `create` command does exactly as it seems. It's creating an `index`. Then this part, `test1_user_handle_index` is the name of what we're calling it. It can be whatever you want, but you might want to try to make it something meaningful for your personal work.
+
+Next, we define the table this `index` will live on and what sets of columns we want to organize our data by. We could pass through any number of columns here. We can also `create` another `index` on the same table that organizes data behind the scenes by `(user_handle, create_date)`.
+
+```sql 
+$ postgres=# create index test1_user_handle_and_create_date_index on Users (user_handle, create_date);
+CREATE INDEX
+$ postgres=#
+```
+
+
+This would be great if we constantly queried out from this table where `user_handle` equals blank and `create_date` was between certain dates. Each database has its own way of showing what indexes are on the table. In Postgres, we just type `\d` and the table name.
+
+```sql 
+$ postgres=# select * from Users where user_handle = '' and create_date between '' and '';
+$ postgres=# \d Users;
+         Table "public.users"
+    Column    | Type  | Modifiers
+--------------+-------+-----------
+ create_date  | date  | 
+ user_handle  | uuid  | 
+ last_name    | text  | 
+ first_name   | text  | 
+Indexes: 
+     "test1_user_handle_and_create_date_index" btree (user_handle, create_date)
+     "test1_user_handle_index" btree (user_handle)
+
+$ postgres=#
+```
+
+Here, we can see the two indexes that we've created. 
+
+To remove an `index`, we simply use the `drop` command with the name of the `index` we've created. 
+
+```sql 
+$ postgres=# drop index test1_user_handle_index;
+DROP INDEX
+$ postgres=# \d Users;
+         Table "public.users"
+    Column    | Type  | Modifiers
+--------------+-------+-----------
+ create_date  | date  | 
+ user_handle  | uuid  | 
+ last_name    | text  | 
+ first_name   | text  | 
+Indexes: 
+     "test1_user_handle_and_create_date_index" btree (user_handle, create_date)
+
+$ postgres=#
+```
+
+That's all that's needed to remove an `index`. At first glance, you might be thinking, "Why not create many indexes on a table?" Although indexes are designed to enhance the database's performance, there are times when you should avoid them.
+
+For example, don't use indexes on small tables, tables that have frequent large batch updates or insert operations, and where columns are frequently manipulated. If you think back to our math book example, imagine now a very large math book that constantly had topics added to and removed from.
+
+Without organizing them in chapters, it's quick and easy to just add the info to the end of the book. However, with chapters, with each insert, we need to scan all of the indexes and make sure we put the right data in the right location. This creates a lot of overhead and can actually cause you more problems than it helps.
+
+Now, we could spend hours talking about indexes. There are a lot of different types, such as partial, implicit, and unique indexes. However, this is a basic and the most common example of using them. If you're interested, I'll be posting links in the video's notes for more information.

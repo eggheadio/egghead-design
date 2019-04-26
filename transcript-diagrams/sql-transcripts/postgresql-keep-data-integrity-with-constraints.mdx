@@ -1,0 +1,127 @@
+<!-- CONSTRAINTS -->
+
+<link href="style.css" rel="stylesheet"></link>
+
+One of relational databases best strengths is the ability to flatten data across many tables. They can be independent from each other, or we can connect them together. Adding a `constraint` to tables is how we can connect them together, and make sure our data keeps its integrity, and as we scale it does so efficiently.
+
+Now let's create a `Users` table, `create table Users (` We'll give it `create_date date`, a `user_handle uuid`, `last_name text`, `first_name text`, and then we're going to do `constraint PK_users primary key (user_handle)`.
+
+A primary key is a column or a group of columns used to identify a row uniquely in a table. 
+
+```sql
+$ postgres=# create table Users (
+$ postgres(# create_date date, 
+$ postgres(# user_handle uuid,
+$ postgres(# last_name text,
+$ postgres(# first_name text, 
+$ postgres(# constraint PK_users primary key (user_handle)
+$ postgres(# ); 
+CREATE TABLE
+postgres #
+```
+
+It could be created by defining it as a `constraint` as we did here, or since we only used one column as the key, we could have written it before the closing comma of this line for `user_handle` by writing the words primary key. A table can only have one primary key, and whatever is defined in our `constraint`, the value inserted into the column or columns needs to be not `null` and unique. What we're saying here, is that this table cannot have more than one distinct user handle in it, or we'll get an error. 
+
+```sql
+$ postgres=# insert into Users values ('2018-06-06', 'a0eebc99-9c0b-42f8-bb6d-6bb9bd380a11', 'clark', 'tyler');
+INSERT 01
+$ postgres=# insert into Users values ('2018-06-06', 'a0eebc99-9c0b-42f8-bb6d-6bb9bd380a11', 'clark', 'tyler');
+ERROR: duplicate key value violates unique constraint "pk_users"
+DETAIL: Key (user_handle)=(a0eebc99-9c0b-42f8-bb6d-6bb9bd380a11) already exists
+```
+
+As you can see, this helps keep our data in check, because two users in our table with the same `user_handle` could cause us some real issues down the road.
+
+The `PK_users` is the name of the key we're giving it. You don't have to give it a name, Postgres and most databases will automatically create a name for you if you don't give it one. 
+
+```sql
+$ postgres=# insert into Users values ('2018-06-06', null, 'clark', 'tyler');
+ERROR: null value in column "user_handle" violates not-null constraint
+DETAIL: Failing row contains (2018-06-06, null, clark, tyler).
+```
+
+As I mentioned before, we cannot insert a `null` value in a primary key. It's recommended to always give your table a primary key whenever you create a new table. Now if you wanted to make sure your users give you an email when they're signing up, but you don't want the email as part of your primary key, you can use the `not null` constraint. While we're at it, we probably also want to make sure we always have a `create_date` and a `first_name` as well. After dropping our `Users` table, let's recreate it, but we're going to add this `not null` statement at the end of the columns we care about not being null. Let's go make `create_date`, `user_handle` and `first_name`. 
+
+```sql
+$ postgres=# create table Users (
+$ postgres(# create_date date not null, 
+$ postgres(# user_handle uuid not null,
+$ postgres(# last_name text,
+$ postgres(# first_name text not null);
+$ postgres(# ); 
+CREATE TABLE
+```
+
+With these constraints in place, we can now rest easy at night knowing that our data in our tables is a little bit more secure.
+
+```sql 
+postgres=# insert into Users values (null, uuid_generate_v4(), 'Jones', 'Katie');
+ERROR: null value in column "create_date" violates not-null constraint
+DETAIL: Failing row contains (null, dbdfbe7f-3508-4495-b7c8-2701cc52edca, Jones, Katie).
+```
+
+Also my own personal opinion is to avoid dealing with nulls in databases as much as possible. They can cause problems without you even knowing. 
+
+```sql 
+postgres=# insert into Users values (now(), uuid_generate_v4(), 'Jones', null);
+ERROR: null value in column "first_name" violates not-null constraint
+DETAIL: Failing row contains (2019-03-18, 02f0d24d-c502-4c56-a4c0-559518db94ff, Jones, null).
+```
+
+Similar to the primary key `constraint`, the `unique` constraint make sure that values stored in a column or a group of columns are unique across rows in the table.
+
+```sql
+$ postgres=# create table Users (
+$ postgres(# create_date date not null, 
+$ postgres(# user_handle uuid not null unique,
+$ postgres(# last_name text,
+$ postgres(# first_name text not null);
+$ postgres(# ); 
+CREATE TABLE
+$ postgres=# insert into Users values ('2019-01-10', 'a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11', 'johnson', 'patrick');
+INSERT 01
+$ postgres=# insert into Users values ('2019-01-10', 'a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11', 'johnson', 'patrick');
+ERROR: duplicate key value violates unique constraint "users_user_handle_key"
+DETAIL: Key (user_handle)=(a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11) already exists.
+```
+
+As you can see, we can combine concern constraints together, giving us the flexibility to make sure we keep our data in a maintainable state. 
+
+```sql
+$ postgres=# drop table Users;
+DROP TABLE
+```
+
+Let's wrap up by recreating our `Users` table and the desired output. `create_date date not null`, the `user_handle` is unique and `not null` as our `primary key`. Users can have a `null` for a `last_name`, and our `first_name` is `not null` as well. 
+
+```sql
+$ postgres=# create table Users (
+$ postgres(#    create_date date not null, 
+$ postgres(#    user_handle uuid primary key,
+$ postgres(#    last_name text,
+$ postgres(#    first_name text not null, 
+$ postgres(# ); 
+CREATE TABLE
+```
+
+We want to start tracking all the purchases our users make, so we'll create a `Purchases` table. We want our data between the two tables to be true, meaning we should never have users make purchases that are not in our `Users` table. How difficult would it be to find that people are making purchases and we don't have their data in our users table? We can do that by creating a `foreign key` between the two tables. By adding this `references` constraint here, `user_handle uuid references Users (user_handle)`, we're adding a `foreign key` that states whatever values inserted within `Purchases`, it needs to exist on the `Users` table as well.
+
+```sql
+$ postgres=# create table purchases (
+$ postgres(#    date date not null, 
+$ postgres(#    user_handle uuid references Users (user_handle),
+$ postgres(#    sku uuid not null,
+$ postgres(#    quantity int not null, 
+$ postgres(# ); 
+CREATE TABLE
+```
+
+With that in place, if we try to `insert` a random `user_handle` into `Purchases`, we get an error. 
+
+```sql
+$ postgres=# insert into Purchases values ('2019-02-02', 'uuid_generate_v4()', uuid_generate_v4(), 1);
+ERROR:  insert or update on table "purchases" violates foreign key constraint "purchases_user_handle_fkey"
+DETAIL: Key (user_handle)=(479a7cc9-8bdf-42c6-b17f-371f55051142) is not present in table "users".
+```
+
+It tells us that we're violating our `foreign key constraint`. If you're curious, you can add constraints to already created tables through the alter table statement.

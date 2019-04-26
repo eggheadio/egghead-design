@@ -1,0 +1,22 @@
+<svg width="254" height="216" viewBox="0 0 254 216" fill="none" xmlns="http://www.w3.org/2000/svg">
+<text fill="#42425B" xml:space="preserve" style="white-space: pre" font-family="SF Pro Text" font-size="20" font-weight="bold" letter-spacing="0.5px"><tspan x="17.8" y="19.043">RELATION</tspan></text>
+<text fill="#6B6B83" xml:space="preserve" style="white-space: pre" font-family="SF Pro Text" font-size="16" letter-spacing="1px"><tspan x="12" y="213.234">ATTRIBUTE</tspan></text>
+<text fill="#6B6B83" xml:space="preserve" style="white-space: pre" font-family="SF Pro Text" font-size="16" letter-spacing="1px"><tspan x="174" y="63.2344">RECORD</tspan></text>
+<text opacity="0.8" fill="#8181A3" xml:space="preserve" style="white-space: pre" font-family="SF Pro Text" font-size="16" font-style="italic" letter-spacing="0px"><tspan x="176" y="82.2344">or</tspan></text>
+<text fill="#6B6B83" xml:space="preserve" style="white-space: pre" font-family="SF Pro Text" font-size="16" letter-spacing="1px"><tspan x="198" y="83.2344">TUPLE</tspan></text>
+<rect opacity="0.1" x="54" y="42" width="38" height="119" rx="2" fill="#3593E5"/>
+<rect opacity="0.1" x="96" y="42" width="38" height="119" rx="2" fill="#3593E5"/>
+<rect x="0.75" y="30.75" width="144.5" height="141.5" rx="4.25" stroke="#3891E0" stroke-width="0.5"/>
+<g style="mix-blend-mode:multiply" opacity="0.8">
+<rect x="12" y="42" width="38" height="119" rx="2" fill="#44AEEE"/>
+</g>
+<g style="mix-blend-mode:multiply" opacity="0.9">
+<rect x="12" y="42" width="122" height="37" rx="4" fill="#69BEF1"/>
+</g>
+<rect opacity="0.1" x="12" y="83" width="122" height="37" rx="2" fill="#3593E5"/>
+<rect opacity="0.1" x="12" y="124" width="122" height="37" rx="2" fill="#3593E5"/>
+<circle cx="163.182" cy="59.1818" r="4.18182" transform="rotate(-180 163.182 59.1818)" fill="#3891E0"/>
+<path d="M134 59.0001H159" stroke="#3891E0" stroke-width="1.39394"/>
+<ellipse cx="30" cy="187" rx="4" ry="4" transform="rotate(-90 30 187)" fill="#3891E0"/>
+<path d="M30 161L30 187" stroke="#3891E0" stroke-width="1.39394"/>
+</svg>

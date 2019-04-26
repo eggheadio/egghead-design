@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="699" height="322" fill="none" viewBox="0 0 699 322">
+    <rect width="337.333" height="179.818" x="155.424" y="78.7575" fill="white" stroke="#D1D5DF" stroke-width="1.39394" rx="4.87879"/>
+    <rect width="57.1515" height="57.1515" fill="#2F2F46" rx="4.18182"/>
+    <rect width="200.727" height="47.3939" x="260.667" y="128.242" fill="#3891E0" rx="5.57576"/>
+    <rect width="33.4545" height="50.1818" x="-0.69697" y="0.69697" stroke="#3891E0" stroke-width="1.39394" rx="3.48485" transform="matrix(-1 0 0 1 436.303 181.212)"/>
+    <path fill="#418DD1" fill-rule="evenodd" d="M542.242 193.758V196.546C542.242 198.855 544.115 200.727 546.424 200.727H637.03C639.34 200.727 641.212 198.855 641.212 196.546V193.758C641.212 196.067 639.34 197.939 637.03 197.939H546.424C544.115 197.939 542.242 196.067 542.242 193.758Z" clip-rule="evenodd"/>
+    <rect width="98.2727" height="45.303" x="-0.348485" y="0.348485" stroke="#3891E0" stroke-width="0.69697" rx="3.83333" transform="matrix(-1 0 0 1 640.515 151.939)"/>
+    <rect width="211" height="52" x="188" y="181" fill="#3891E0" opacity="0.2" rx="5.57576"/>
+    <text fill="black" font-family="Space Mono" font-size="24.88" font-weight="bold" letter-spacing="0px" style="white-space:pre" xml:space="preserve">
+        <tspan x="191.532" y="161.866">psql</tspan>
+    </text>
+    <path fill="white" d="M21.4196 38.239L22.0023 34.7737C26.4489 34.283 28.1356 32.535 28.1356 30.4497C28.1356 25.9417 19.6716 24.255 19.6716 22.415C19.6716 21.403 21.9103 21.0657 27.3996 22.6297L27.9516 18.367C26.8169 18.2137 25.8049 18.1217 24.8543 18.0603L25.5289 14.7177L21.6956 14.687L21.1129 18.1217C16.6356 18.551 14.9489 20.4523 14.9489 22.5683C14.9489 26.9537 23.4129 28.4563 23.4129 30.3883C23.4129 31.4923 21.0823 31.7683 15.2249 30.3883L14.4276 34.651C15.8383 34.8043 17.1263 34.8963 18.2916 34.8963L17.5863 38.2083L21.4196 38.239Z"/>
+    <path fill="white" d="M45.9163 37.503H30.8896V41.0297H45.9163V37.503Z"/>
+    <text fill="black" font-family="Space Mono" font-size="24.88" font-weight="bold" letter-spacing="0px" style="white-space:pre" xml:space="preserve">
+        <tspan x="412.656" y="212.653">;</tspan>
+    </text>
+    <text fill="white" font-family="Space Mono" font-size="24.88" font-weight="bold" letter-spacing="0px" style="white-space:pre" xml:space="preserve">
+        <tspan x="279.712" y="159.866">my_database</tspan>
+    </text>
+    <text fill="#4C5052" font-family="sans-serif" font-size="16.52" letter-spacing="1px" style="white-space:pre" xml:space="preserve">
+        <tspan x="79.4546" y="18.7594">ACCESS POSTGRES THROUGH </tspan><tspan x="79.4546" y="40.7594">THE COMMAND LINE</tspan>
+    </text>
+    <text fill="#4C5052" font-family="sans-serif" font-size="16.52" letter-spacing="1px" style="white-space:pre" xml:space="preserve">
+        <tspan x="42" y="154.971">OPEN </tspan><tspan x="42" y="176.971">YOUR </tspan><tspan x="42" y="198.971">DATABASE</tspan>
+    </text>
+    <text fill="#4C5052" font-family="sans-serif" font-size="16.52" letter-spacing="1px" style="white-space:pre" xml:space="preserve">
+        <tspan x="341.515" y="314.274">END A COMMAND</tspan>
+    </text>
+    <text fill="#4C5052" font-family="sans-serif" font-size="16.52" letter-spacing="1px" style="white-space:pre" xml:space="preserve">
+        <tspan x="543.636" y="226.456">MOVE TO THE </tspan><tspan x="543.636" y="248.456">NEXT LINE</tspan>
+    </text>
+    <text fill="#418DD1" font-family="sans-serif" font-size="12.33" letter-spacing="0.2px" style="white-space:pre" xml:space="preserve">
+        <tspan x="290.758" y="120.072">NAME OF YOUR DATABASE</tspan>
+    </text>
+    <text fill="#3891E0" font-family="sans-serif" font-size="20" font-weight="800" letter-spacing="1px" style="white-space:pre" xml:space="preserve">
+        <tspan x="555.788" y="182.918">ENTER</tspan>
+    </text>
+    <circle cx="118.485" cy="153.333" r="4.18182" fill="#3891E0"/>
+    <path stroke="#418DD1" stroke-width="1.39394" d="M174.242 153.333H121.273"/>
+    <circle cx="420.97" cy="285.758" r="4.18182" fill="#3891E0" transform="rotate(-90 420.97 285.758)"/>
+    <path stroke="#418DD1" stroke-width="1.39394" d="M420.97 231.394L420.97 287.152"/>
+    <path stroke="#D1D5DF" stroke-dasharray="6.97 11.15" stroke-width="1.39394" d="M50.1819 58.5454V75.2727C50.1819 78.3521 52.6782 80.8484 55.7576 80.8484H147.758"/>
+    <path stroke="#D1D5DF" stroke-dasharray="6.97 11.15" stroke-width="1.39394" d="M5.57568 58.5454V253.697C5.57568 256.776 8.07204 259.273 11.1514 259.273H147.758"/>
+    <path stroke="#3891E0" stroke-miterlimit="10" stroke-width="2.09091" d="M494.325 150.593C537.373 150.692 537.373 208.301 494.325 208.399H460.346"/>
+    <path fill="#3891E0" d="M468.297 217.233V198.582C468.297 197.418 466.955 196.767 466.04 197.487L454.636 206.467C453.944 207.012 453.925 208.055 454.597 208.625L466.001 218.296C466.907 219.064 468.297 218.42 468.297 217.233Z"/>
+    <circle cx="494.183" cy="150.593" r="4.2297" fill="#3891E0" transform="rotate(-90 494.183 150.593)"/>
+</svg>

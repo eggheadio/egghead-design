@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="874" height="471" fill="none" viewBox="0 0 874 471">
+    <g id="Frame 2.8">
+        <rect width="874" height="471" fill="white"/>
+        <g id="Text">
+            <rect id="index-name-bg" width="218" height="38" fill="#1E81DA" rx="2.54647" transform="matrix(-1 0 0 1 467 58)"/>
+            <rect id="tablename-bg" width="124" height="38" stroke="#1E81DA" stroke-linecap="round" stroke-width="0.949241" rx="2.54647" transform="matrix(-1 0 0 1 634 58)"/>
+            <rect id="col1-text-bg" width="152" height="38" stroke="#1DB9FC" stroke-linecap="round" stroke-width="0.949241" rx="2.54647" transform="matrix(-1 0 0 1 266 105)"/>
+            <text id=";" fill="black" font-family="Space Mono" font-size="20" letter-spacing="0px" style="white-space:pre" xml:space="preserve">
+                <tspan x="478" y="129.4">;</tspan>
+            </text>
+            <text id=")" fill="black" font-family="Space Mono" font-size="20" letter-spacing="0px" style="white-space:pre" xml:space="preserve">
+                <tspan x="468" y="131.4">)</tspan>
+            </text>
+            <text id="col1text" fill="#13AEF0" font-family="Space Mono" font-size="20" font-style="italic" letter-spacing="0px" style="white-space:pre" xml:space="preserve">
+                <tspan x="129" y="131.4">column_one</tspan>
+            </text>
+            <rect id="col2-text-bg" width="178" height="38" stroke="#1DB9FC" stroke-linecap="round" stroke-width="0.949241" rx="2.54647" transform="matrix(-1 0 0 1 461 105)"/>
+            <text id="col2text" fill="#13AEF0" font-family="Space Mono" font-size="20" font-style="italic" letter-spacing="0px" style="white-space:pre" xml:space="preserve">
+                <tspan x="299" y="132.4">column_three</tspan>
+            </text>
+            <text id="," fill="black" font-family="Space Mono" font-size="20" font-style="italic" letter-spacing="0px" style="white-space:pre" xml:space="preserve">
+                <tspan x="270" y="136.4">,</tspan>
+            </text>
+            <text id="(" fill="black" font-family="Space Mono" font-size="20" letter-spacing="0px" style="white-space:pre" xml:space="preserve">
+                <tspan x="94" y="133.4">(</tspan>
+            </text>
+            <text id="tablename" fill="#1E81DA" font-family="Space Mono" font-size="20" font-style="italic" font-weight="bold" letter-spacing="0px" style="white-space:pre" xml:space="preserve">
+                <tspan x="522" y="84.4">TableOne</tspan>
+            </text>
+            <text id="on" fill="black" font-family="Space Mono" font-size="20" letter-spacing="0px" style="white-space:pre" xml:space="preserve">
+                <tspan x="475" y="84.4">on</tspan>
+            </text>
+            <text id="index-name" fill="white" font-family="Space Mono" font-size="20" font-style="italic" letter-spacing="1px" style="white-space:pre" xml:space="preserve">
+                <tspan x="264" y="84.4">the_best_index</tspan>
+            </text>
+            <text id="index" fill="black" font-family="Space Mono" font-size="20" letter-spacing="0px" style="white-space:pre" xml:space="preserve">
+                <tspan x="178.417" y="84.4">index</tspan>
+            </text>
+            <text id="create" fill="black" font-family="Space Mono" font-size="20" letter-spacing="0px" style="white-space:pre" xml:space="preserve">
+                <tspan x="94.1064" y="84.4">create</tspan>
+            </text>
+            <g id="TextLabels">
+                <text id="name your index" fill="#1E81DA" font-family="SF Pro Text" font-size="14" font-weight="500" letter-spacing="1px" style="white-space:pre" xml:space="preserve">
+                    <tspan x="249.477" y="50.3301">NAME YOUR INDEX</tspan>
+                </text>
+                <text id="columns you want to index" fill="#13AEF0" font-family="SF Pro Text" font-size="14" font-weight="500" letter-spacing="1px" style="white-space:pre" xml:space="preserve">
+                    <tspan x="159.601" y="165.33">COLUMNS YOU WANT TO INDEX</tspan>
+                </text>
+                <text id="table you want to create the index on" fill="#1E81DA" font-family="SF Pro Text" font-size="14" font-weight="500" letter-spacing="0.5px" style="white-space:pre" xml:space="preserve">
+                    <tspan x="648" y="72.3301">TABLE YOU WANT </tspan><tspan x="648" y="90.3301">TO CREATE THE </tspan><tspan x="648" y="108.33">INDEX ON</tspan>
+                </text>
+            </g>
+        </g>
+        <rect id="table-outline" width="199" height="199" x="-0.5" y="0.5" stroke="#D1D5DF" rx="4.20039" transform="matrix(-1 0 0 1 441 234)"/>
+        <path id="indexpath" stroke="#1E81DA" stroke-dasharray="2 8" stroke-linecap="round" d="M492 330C492 286.753 492 249.443 492 236.686C492 234.09 494.104 232 496.7 232H626.3C628.896 232 631 234.104 631 236.7V427.3C631 429.896 628.896 432 626.3 432H496.7C494.104 432 492 429.896 492 427.3V334.5"/>
+        <rect id="col3-move" width="54" height="176" fill="#1DB9FC" opacity="0.3" rx="5.17031" transform="matrix(-1 0 0 1 619 244)"/>
+        <rect id="col3" width="54" height="176" fill="#1DB9FC" opacity="0.3" rx="5.17031" transform="matrix(-1 0 0 1 429 246)"/>
+        <rect id="col2" width="54" height="176" fill="#1DB9FC" opacity="0.6" rx="5.17031" transform="matrix(-1 0 0 1 369 246)"/>
+        <rect id="col1-move" width="54" height="176" fill="#1DB9FC" rx="5.17031" transform="matrix(-1 0 0 1 558 244)"/>
+        <rect id="col1" width="54" height="176" fill="#1DB9FC" rx="5.17031" transform="matrix(-1 0 0 1 309 246)"/>
+        <text id="table-label" fill="#1E81DA" font-family="SF Pro Text" font-size="14" font-weight="500" letter-spacing="1px" style="white-space:pre" xml:space="preserve">
+            <tspan x="299.713" y="220.33">TABLE ONE</tspan>
+        </text>
+        <text id="index-label" fill="#1E81DA" font-family="SF Pro Text" font-size="14" font-weight="500" letter-spacing="1px" style="white-space:pre" xml:space="preserve">
+            <tspan x="498.211" y="220.33">THE BEST INDEX</tspan>
+        </text>
+        <g id="pointer">
+            <circle id="pointer-circle" cx="483.182" cy="332.182" r="4.18182" fill="#3891E0" transform="rotate(-180 483.182 332.182)"/>
+            <path id="pointer-line" stroke="#3891E0" stroke-width="1.39394" d="M442 332H479"/>
+        </g>
+    </g>
+</svg>
